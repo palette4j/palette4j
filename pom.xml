@@ -15,6 +15,20 @@
         <junit-jupiter-version>5.13.0</junit-jupiter-version>
     </properties>
 
+    <packaging>jar</packaging>
+
+    <name>palette4j</name>
+    <description>
+        Lightweight framework-agnostic Java 8+ compatible toolbox designed for work with mainly cross-cutting project's
+        features (e.g. exceptions, operational context, observability etc.)
+    </description>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
 
     <dependencies>
         <dependency>
